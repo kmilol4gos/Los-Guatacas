@@ -1,0 +1,53 @@
+[
+  {
+    "dish": "Bacon",
+    "description": "Pepinillo, queso cheddar, carne 200 gr",
+    "price": "$"
+  },
+  {
+    "dish": "La India",
+    "description": "Doble queso cheddar, doble carne 200 gr",
+    "price": "$"
+  },
+  {
+    "dish": "Cheese BBQ",
+    "description": "Salsa BBQ, cebolla caramelizada, tocino, queso cheddar, carne 200 gr",
+    "price": "$"
+  },
+  {
+    "dish": "Macanuda",
+    "description": "Mayo casera, palta, cebolla morada, tomate, lechuga, carne 200 gr",
+    "price": "$"
+  },
+  {
+    "dish": "A lo pobre",
+    "description": "Huevo frito, papas fritas, cebolla caramelizada, carne 200 gr",
+    "price": "$"
+  },
+  {
+    "dish": "Chimango",
+    "description": "Mayo casera, palta, champiñón, lechuga, carne 200 gr",
+    "price": "$"
+  },
+  {
+    "dish": "Chacarero",
+    "description": "Mayo casera, ají verde, porotos verdes, tomate, carne 200 gr",
+    "price": "$"
+  },
+  {
+    "dish": "Barro luco 2.0",
+    "description": "Palta, queso mantecoso, carne 200 gr",
+    "price": "$"
+  },
+  {
+    "dish": "Clásica (Vegetariana)",
+    "description": "Palta, tomate, lechuga, lenteja o garbanzos",
+    "price": "$"
+  },
+  {
+    "dish": "La Mía (Vegetariana)",
+    "description": "Cebolla morada, tomate, lechuga, queso cheddar, lenteja o garbanzos",
+    "price": "$"
+  }
+]
+

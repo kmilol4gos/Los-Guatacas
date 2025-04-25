@@ -1,0 +1,33 @@
+---
+export interface ContentMenuProps {
+  dish: string;
+  description: string;
+  price: string;
+}
+
+const { dish, description, price } = Astro.props;
+---
+
+  <section class="separator p-5 py-0 flex gap-2 text-neutral-50" >
+    <div class="flex flex-col gap-1 grow">
+      <h4 class="font-semibold text-lg">{dish}</h4>
+      <p class="text-neutral-300">{description}</p>
+    </div>
+    <span class="ml-3 font-semibold text-lg text-yellow-guataca">{price}</span>
+    
+  </section>
+
+
+<style>
+  .separator { 
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    &:last-child {
+      border-bottom: none;
+    }
+    &:first-child{
+      padding-top: 8px;
+    }
+  
+  }
+  </style>

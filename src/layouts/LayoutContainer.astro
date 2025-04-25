@@ -1,0 +1,17 @@
+---
+const {class: className, id} = Astro.props;
+---
+
+
+<section  
+  id={id}
+  class={`${className} height-section md:mx-20 lg:mx-32`}
+>
+  <slot/>
+</section>
+
+<style>
+  .height-section {
+    min-height: 50svh;
+  }
+</style>

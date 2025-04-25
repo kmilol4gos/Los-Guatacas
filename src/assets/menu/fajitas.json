@@ -1,0 +1,27 @@
+[
+  {
+    "dish": "Pollo",
+    "description": "Lechuga, choclo, tomate, aceitunas",
+    "price": "$"
+  },
+  {
+    "dish": "Mechada",
+    "description": "Champiñones, palta",
+    "price": "$"
+  },
+  {
+    "dish": "Camarón",
+    "description": "Pimentón, cebolla caramelizada",
+    "price": "$"
+  },
+  {
+    "dish": "Tierra Mar",
+    "description": "Camarón, carne, pimentón, cebolla morada",
+    "price": "$"
+  },
+  {
+    "dish": "La Flaca",
+    "description": "Champiñón, lechuga, palta, choclo",
+    "price": "$"
+  }
+]
