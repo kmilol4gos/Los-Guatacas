@@ -19,7 +19,7 @@ html {
 
 body {
 	min-height: 100svh;
-	/* font-family: "Onest Variable", sans-serif; */
+	font-family: "Onest Variable", sans-serif;
 	overscroll-behavior: none;
 	background-color: #171717;
 }
