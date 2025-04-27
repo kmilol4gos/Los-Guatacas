@@ -1,0 +1,32 @@
+[
+  {
+    "dish": "Queso",
+    "description": "Queso mantecoso",
+    "price": "$"
+  },
+  {
+    "dish": "Completo",
+    "description": "Tomate, chucrut, salsa americana, mayo",
+    "price": "$"
+  },
+  {
+    "dish": "Italiano",
+    "description": "Tomate, palta y mayo",
+    "price": "$"
+  },
+  {
+    "dish": "Chacarero",
+    "description": "Poroto verde, tomate, ají verde y mayo",
+    "price": "$"
+  },
+  {
+    "dish": "Brasileña",
+    "description": "Queso mantecoso y palta",
+    "price": "$"
+  },
+  {
+    "dish": "A lo pobre",
+    "description": "Cebolla caramelizada, papas fritas y huevo frito",
+    "price": "$"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "dish": "Empanada de Queso",
+    "description": "Empanada rellena de queso",
+    "price": "$"
+  },
+  {
+    "dish": "Aros de Cebolla",
+    "description": "Aros de cebolla fritos",
+    "price": "$"
+  },
+  {
+    "dish": "Sopaipillas",
+    "description": "Sopaipillas tradicionales",
+    "price": "$"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "dish": "Chacarero",
+    "description": "Mayo casera, ají verde, tomate, porotos verdes",
+    "price": "$"
+  },
+  {
+    "dish": "Queso",
+    "description": "Queso mantecoso",
+    "price": "$"
+  },
+  {
+    "dish": "Brasileña",
+    "description": "Palta, queso mantecoso",
+    "price": "$"
+  },
+  {
+    "dish": "Champiñones",
+    "description": "Champiñones",
+    "price": "$"
+  }
+]

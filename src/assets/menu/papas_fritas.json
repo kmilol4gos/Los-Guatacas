@@ -1,0 +1,32 @@
+[
+  {
+    "dish": "Papas Clásica",
+    "description": "Papas fritas tradicionales",
+    "price": "$"
+  },
+  {
+    "dish": "Papas Queso Cheddar",
+    "description": "Papas fritas con queso cheddar",
+    "price": "$"
+  },
+  {
+    "dish": "Salchipapa",
+    "description": "Papas fritas con vienesas",
+    "price": "$"
+  },
+  {
+    "dish": "Chorrillana",
+    "description": "Papas fritas, cebolla caramelizada, churrasco, huevo frito",
+    "price": "$"
+  },
+  {
+    "dish": "Papa Guataca",
+    "description": "Mechada, cebolla caramelizada, aceituna, queso cheddar, papas fritas",
+    "price": "$"
+  },
+  {
+    "dish": "Papa Mexicana",
+    "description": "Papas fritas, palta, tomate, tocino picado",
+    "price": "$"
+  }
+]

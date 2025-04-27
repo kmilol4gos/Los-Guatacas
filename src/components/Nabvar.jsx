@@ -30,7 +30,7 @@ export function Navbar() {
             <header className="sticky top-0 z-10 bg-neutral-900 min-w-screen">
                 <nav className="flex justify-between items-center px-4 mx-auto h-24 max-w-screen-xl">
                     <a href="#inicio" className="w-24">
-                        <img src="/g6.png" alt="Los Guatacas" className="w-full h-full aspect-square" />
+                        <img src="/l2.png" alt="Los Guatacas" className="w-full h-full aspect-square" />
                     </a>
 
                     {/* Menú de escritorio */}

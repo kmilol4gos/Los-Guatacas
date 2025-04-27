@@ -3,15 +3,33 @@ import Card from "./Card.astro";
 import ContentMenu from "./ContentMenu.astro";
 import hamburguesa from "../assets/menu/hamburguesas.json";
 import fajita from "../assets/menu/fajitas.json";
+import vienesa_ass from "../assets/menu/vienesa_ass.json";
+import churrasco_lomito from "../assets/menu/churrasco_lomito.json";
+import mechada from "../assets/menu/mechada.json";
+import papas_fritas from "../assets/menu/papas_fritas.json";
+import extras from "../assets/menu/extras.json";
 ---
 
 <section
-	class="text-neutral-50 flex flex-col items-center justify-center gap-7" id="menu"
+	class="text-gray-900 flex flex-col items-center justify-center gap-7"
+	id="menu"
 >
 	<header>
 		<h2 class="text-3xl font-bold text-yellow-guataca">Nuestro menú</h2>
 	</header>
 	<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+		<Card title="Papas Fritas">
+			{
+				papas_fritas.map((item) => (
+					<ContentMenu
+						dish={item.dish}
+						description={item.description}
+						price={item.price}
+					/>
+				))
+			}
+		</Card>
+
 		<Card title="Hamburguesas">
 			{
 				hamburguesa.map((item) => (
@@ -23,9 +41,58 @@ import fajita from "../assets/menu/fajitas.json";
 				))
 			}
 		</Card>
+
+		<Card title="Churrasco o Lomito">
+			{
+				churrasco_lomito.map((item) => (
+					<ContentMenu
+						dish={item.dish}
+						description={item.description}
+						price={item.price}
+					/>
+				))
+			}
+		</Card>
+
+		<Card title="Vienesa o Ass">
+			{
+				vienesa_ass.map((item) => (
+					<ContentMenu
+						dish={item.dish}
+						description={item.description}
+						price={item.price}
+					/>
+				))
+			}
+		</Card>
+
+		<Card title="Mechada">
+			{
+				mechada.map((item) => (
+					<ContentMenu
+						dish={item.dish}
+						description={item.description}
+						price={item.price}
+					/>
+				))
+			}
+		</Card>
+
 		<Card title="Fajitas">
 			{
 				fajita.map((item) => (
+					<ContentMenu
+						dish={item.dish}
+						description={item.description}
+						price={item.price}
+					/>
+				))
+			}
+		</Card>
+
+		<Card title="Extras">
+			{
+				extras.map((item) => (
 					<ContentMenu
 						dish={item.dish}
 						description={item.description}
