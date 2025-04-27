@@ -1,42 +1,42 @@
 ---
 import Card from "./Card.astro";
 import ContentMenu from "./ContentMenu.astro";
-import hamburguesa from "../assets/menu/hamburguesas.json"
-import fajita from "../assets/menu/fajitas.json"
+import hamburguesa from "../assets/menu/hamburguesas.json";
+import fajita from "../assets/menu/fajitas.json";
+---
 
---- 
-
-<section class="text-neutral-50 flex flex-col items-center justify-center gap-7">
+<section
+	class="text-neutral-50 flex flex-col items-center justify-center gap-7" id="menu"
+>
 	<header>
-		<h2 class="text-3xl font-bold text-yellow-guataca">Nuestro menú</h2>  
+		<h2 class="text-3xl font-bold text-yellow-guataca">Nuestro menú</h2>
 	</header>
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-    <Card
-      title="Hamburguesas"
-    >
-      {hamburguesa.map((item) => 
-      <ContentMenu
-        dish={item.dish}
-        description={item.description}
-        price={item.price}
-      />
-    )}
-    </Card>
-    <Card 
-      title="Fajitas">
-      {fajita.map((item) => 
-      <ContentMenu
-        dish={item.dish}
-        description={item.description}
-        price={item.price}
-      />
-    )}
-    </Card>
-    
-  </div>
+	<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+		<Card title="Hamburguesas">
+			{
+				hamburguesa.map((item) => (
+					<ContentMenu
+						dish={item.dish}
+						description={item.description}
+						price={item.price}
+					/>
+				))
+			}
+		</Card>
+		<Card title="Fajitas">
+			{
+				fajita.map((item) => (
+					<ContentMenu
+						dish={item.dish}
+						description={item.description}
+						price={item.price}
+					/>
+				))
+			}
+		</Card>
+	</div>
 
-  <div>
-    <img src="" alt="">
-  </div>
+	<div>
+		<img src="" alt="" />
+	</div>
 </section>
-

@@ -1,0 +1,23 @@
+
+[
+  {
+    "title": "2x1",
+    "description": "Elige tu churrasco o lomito seleccionados: Queso, Chacarero, Italiano, Palta Mayo.",
+    "price": "PIDELO AHORA!" 
+  },
+  {
+    "title": "Promo 2 Completos + Papas + Lata",
+    "description": "Combo de 2 completos, papas fritas y bebida en lata",
+    "price": "$6.000"
+  },
+  {
+    "title": "Promo Lomito + Papas + Lata",
+    "description": "Lomito acompañado de papas fritas y bebida en lata",
+    "price": "$7.000"
+  },
+  {
+    "title": "Promo Chorrillana para 2 + Bebida 1.6L",
+    "description": "Chorrillana grande para compartir entre dos personas más bebida de 1.6 litros",
+    "price": "$14.000"
+  }
+]

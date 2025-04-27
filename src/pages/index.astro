@@ -1,21 +1,23 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import LayoutContainer from '../layouts/LayoutContainer.astro';
-import { Hero } from '../components/Hero';
-import Menu from '../components/Menu.astro';
+import Layout from "../layouts/Layout.astro";
+import LayoutContainer from "../layouts/LayoutContainer.astro";
+import { Hero } from "../components/Hero";
+import Menu from "../components/Menu.astro";
+import Promotion from "../components/Promotion.astro";
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
-<Layout title="Los Guatacas" description='El mejor local de comida rapida'>
-	<LayoutContainer class ="pt-20" id="inicio">
-      <Hero />
-  </LayoutContainer>
-  <LayoutContainer class ="mx-6">
-    <Menu />
-  </LayoutContainer>
-  <LayoutContainer>
-    
-  </LayoutContainer>
 
+<Layout title="Los Guatacas" description="El mejor local de comida rapida">
+	<LayoutContainer class="pt-20" >
+		<Hero />
+	</LayoutContainer>
+	<LayoutContainer class="mx-6">
+		<Menu />
+	</LayoutContainer>
+	<LayoutContainer class="mx-0 pb-20">
+		<Promotion />
+	</LayoutContainer>
+  
 </Layout>
