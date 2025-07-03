@@ -9,20 +9,21 @@ const urlInstagram = "https://www.instagram.com/losguatacasandwicheria/";
 ---
 
 <footer
-    class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-4 gap-6 text-neutral-50" id="contacto"
+	class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-4 gap-6 text-neutral-50"
+	id="contacto"
 >
-    <section class="flex flex-col gap-1">
-        <h2 class="uppercase text-2xl font-bold">Horario</h2>
-        <p>{horarioSemana}</p>
-        <p>{horarioFinSemana}</p>
-    </section>
-    <section class="flex flex-col gap-1">
-        <h3 class="uppercase text-2xl font-bold">Contacto</h3>
-        <p>Dirección: {ubicacion}</p>
-        <p>Celular: {celular}</p>
-        <span>
+	<section class="flex flex-col gap-1">
+		<h2 class="uppercase text-2xl font-bold">Horario</h2>
+		<p>{horarioSemana}</p>
+		<p>{horarioFinSemana}</p>
+	</section>
+	<section class="flex flex-col gap-1">
+		<h3 class="uppercase text-2xl font-bold">Contacto</h3>
+		<!-- <p>Dirección: {ubicacion}</p> -->
+		<!-- <p>Celular: {celular}</p> -->
+		<span>
 			Instagram:
-            <a href={urlInstagram} target="_blank">{instagram}</a>
-        </span>
-    </section>
+			<a href={urlInstagram} target="_blank">{instagram}</a>
+		</span>
+	</section>
 </footer>
