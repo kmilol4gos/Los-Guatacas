@@ -1,57 +1,47 @@
 [
-  {
-    "dish": "Solo",
-    "description": "Vienesa sola",
-    "price": "$"
-  },
-  {
-    "dish": "Mayo",
-    "description": "Vienesa con mayonesa",
-    "price": "$"
-  },
-  {
-    "dish": "Completo",
-    "description": "Tomate, chucrut, americana y mayo",
-    "price": "$"
-  },
-  {
-    "dish": "Italiano",
-    "description": "Tomate, palta y mayo",
-    "price": "$"
-  },
-  {
-    "dish": "Dinámico",
-    "description": "Tomate, palta, salsa verde, americana y mayo",
-    "price": "$"
-  },
-  {
-    "dish": "Queso",
-    "description": "Queso mantecoso",
-    "price": "$"
-  },
-  {
-    "dish": "Brasileña",
-    "description": "Queso mantecoso y palta",
-    "price": "$"
-  },
-  {
-    "dish": "Palta y Queso",
-    "description": "Queso mantecoso y palta",
-    "price": "$"
-  },
-  {
-    "dish": "Queso Aceituna",
-    "description": "Queso mantecoso y aceitunas",
-    "price": "$"
-  },
-  {
-    "dish": "Tomate y Mayo",
-    "description": "Tomate y mayonesa",
-    "price": "$"
-  },
-  {
-    "dish": "Flechita",
-    "description": "Huevo revuelto, orégano y tocino",
-    "price": "$"
-  }
+	{
+		"dish": "Solo",
+		"description": "Vienesa o AS",
+		"price": "Vienesa: $2.500 | AS: $3.500"
+	},
+	{
+		"dish": "Mayo",
+		"description": "Vienesa o AS con mayonesa",
+		"price": "Vienesa: $2.500 | AS: $3.700"
+	},
+	{
+		"dish": "Completo",
+		"description": "Tomate, chucrut, americana y mayo",
+		"price": "Vienesa: $2.900 | AS: $3.900"
+	},
+	{
+		"dish": "Italiano",
+		"description": "Tomate, palta y mayo",
+		"price": "Vienesa: $2.900 | AS: $3.900"
+	},
+	{
+		"dish": "Dinámico",
+		"description": "Tomate, palta, salsa verde, americana y mayo",
+		"price": "Vienesa: $2.900 | AS: $3.900"
+	},
+	{
+		"dish": "Queso",
+		"description": "Queso mantecoso",
+		"price": "Vienesa: $2.900 | AS: $3.900"
+	},
+	{
+		"dish": "Brasileño",
+		"description": "Queso mantecoso y palta",
+		"price": "Vienesa: $2.900 | AS: $3.900"
+	},
+	{
+		"dish": "Queso Aceituna",
+		"description": "Queso mantecoso y aceitunas",
+		"price": "Vienesa: $2.900 | AS: $3.900"
+	},
+	{
+		"dish": "Flechita",
+		"description": "Huevo revuelto, orégano y tocino",
+		"price": "Vienesa: $2.900 | AS: $3.900"
+	}
 ]

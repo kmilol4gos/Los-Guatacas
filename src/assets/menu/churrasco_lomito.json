@@ -1,32 +1,42 @@
 [
-  {
-    "dish": "Queso",
-    "description": "Queso mantecoso",
-    "price": "$"
-  },
-  {
-    "dish": "Completo",
-    "description": "Tomate, chucrut, salsa americana, mayo",
-    "price": "$"
-  },
-  {
-    "dish": "Italiano",
-    "description": "Tomate, palta y mayo",
-    "price": "$"
-  },
-  {
-    "dish": "Chacarero",
-    "description": "Poroto verde, tomate, ají verde y mayo",
-    "price": "$"
-  },
-  {
-    "dish": "Brasileña",
-    "description": "Queso mantecoso y palta",
-    "price": "$"
-  },
-  {
-    "dish": "A lo pobre",
-    "description": "Cebolla caramelizada, papas fritas y huevo frito",
-    "price": "$"
-  }
+	{
+		"dish": "Solo Mayo",
+		"description": "Churrasco con mayonesa",
+		"price": "$6.500"
+	},
+	{
+		"dish": "Palta Mayo",
+		"description": "Churrasco con palta y mayonesa",
+		"price": "$6.500"
+	},
+	{
+		"dish": "Queso",
+		"description": "Churrasco con queso mantecoso derretido",
+		"price": "$6.800"
+	},
+	{
+		"dish": "Completo",
+		"description": "Churrasco con tomate, chucrut, salsa americana y mayonesa",
+		"price": "$8.500"
+	},
+	{
+		"dish": "Italiano",
+		"description": "Churrasco con tomate, palta y mayonesa",
+		"price": "$8.500"
+	},
+	{
+		"dish": "Chacarero",
+		"description": "Churrasco con porotos verdes, tomate, ají verde y mayonesa",
+		"price": "$8.900"
+	},
+	{
+		"dish": "Brasileño",
+		"description": "Churrasco con queso mantecoso derretido y palta",
+		"price": "$8.900"
+	},
+	{
+		"dish": "A lo Pobre",
+		"description": "Churrasco con cebolla caramelizada, papas fritas y huevo frito",
+		"price": "$8.900"
+	}
 ]

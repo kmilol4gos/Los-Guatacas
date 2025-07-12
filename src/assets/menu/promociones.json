@@ -1,23 +1,32 @@
-
 [
-  {
-    "title": "2x1",
-    "description": "Elige tu churrasco o lomito seleccionados: Queso, Chacarero, Italiano, Palta Mayo.",
-    "price": "Próximamente" 
-  },
-  {
-    "title": "Promo 2 Completos + Papas + Lata",
-    "description": "Combo de 2 completos, papas fritas y bebida en lata",
-    "price": "Próximamente"
-  },
-  {
-    "title": "Promo Lomito + Papas + Lata",
-    "description": "Lomito acompañado de papas fritas y bebida en lata",
-    "price": "Próximamente"
-  },
-  {
-    "title": "Promo Chorrillana para 2 + Bebida 1.6L",
-    "description": "Chorrillana grande para compartir entre dos personas más bebida de 1.6 litros",
-    "price": "Próximamente"
-  }
+	{
+		"title": "2x1 Churrascos Clásicos",
+		"description": "Lleva 2 churrascos iguales y paga solo 1.\n\n• 2x Solo Mayo: $7.500\n• 2x Palta Mayo: $7.800\n• 2x Churrasco Queso: $9.500\n• 2x Churrasco Completo: $9.500\n\n*Promoción aplica solo para churrascos del mismo tipo.*",
+		"price": "$7.500 - $9.500"
+	},
+	{
+		"title": "2x1 Churrascos Especiales",
+		"description": "Lleva 2 churrascos iguales y paga solo 1.\n\n• 2x Churrasco Italiano: $9.500\n• 2x Churrasco Chacarero: $9.500\n• 2x Churrasco Brasileño: $9.500\n• 2x Churrasco a lo Pobre: $9.900\n\n*Promoción aplica solo para churrascos del mismo tipo.*",
+		"price": "$9.500 - $9.900"
+	},
+	{
+		"title": "Promoción Almuerzo Italiano",
+		"description": "Disfruta de un rico Churrasco Italiano + Papas Fritas + Bebida.\n\n• Válido de 12:00 a 16:00 hrs.\n• Incluye papas fritas y bebida personal.",
+		"price": "$8.000"
+	},
+	{
+		"title": "Combo Hamburguesas",
+		"description": "Cualquier hamburguesa del menú + Papas Fritas + Bebida.\n\nIncluye todas nuestras variedades.\n• 100% carne artesanal\n• Papas fritas medianas\n• Bebida personal",
+		"price": "$11.900"
+	},
+	{
+		"title": "Chorrillana para 2 Personas",
+		"description": "Ideal para compartir. Incluye:\n• Chorrillana grande con carne, cebolla y huevo\n• 2 Bebidas en lata (350ml)\n• Pan para acompañar",
+		"price": "$11.900"
+	},
+	{
+		"title": "Combo Vienesa Italiana",
+		"description": "Disfruta de una deliciosa Vienesa Italiana con:\n• Pan tostado\n• Tomate, palta y mayonesa\n• Papas fritas medianas\n• Bebida personal",
+		"price": "$6.000"
+	}
 ]

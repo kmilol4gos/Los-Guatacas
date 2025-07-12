@@ -1,27 +1,37 @@
 [
-  {
-    "dish": "Pollo",
-    "description": "Lechuga, choclo, tomate, aceitunas",
-    "price": "$"
-  },
-  {
-    "dish": "Mechada",
-    "description": "Champiñones, palta",
-    "price": "$"
-  },
-  {
-    "dish": "Camarón",
-    "description": "Pimentón, cebolla caramelizada",
-    "price": "$"
-  },
-  {
-    "dish": "Tierra Mar",
-    "description": "Camarón, carne, pimentón, cebolla morada",
-    "price": "$"
-  },
-  {
-    "dish": "La Flaca",
-    "description": "Champiñón, lechuga, palta, choclo",
-    "price": "$"
-  }
+	{
+		"dish": "Pollo",
+		"description": "Pollo, lechuga, choclo, palta, aceituna",
+		"price": "$6.500"
+	},
+	{
+		"dish": "Mechada",
+		"description": "Mechada, palta, choclo",
+		"price": "$6.500"
+	},
+	{
+		"dish": "Mechada italiana",
+		"description": "Mechada, tomate, palta",
+		"price": "$6.500"
+	},
+	{
+		"dish": "Tierra Mar",
+		"description": "Camarón, mechada, pimentón, cebolla morada",
+		"price": "$6.500"
+	},
+	{
+		"dish": "La Flaca",
+		"description": "Pollo, porotos verdes, choclo, palta",
+		"price": "$6.500"
+	},
+	{
+		"dish": "Mechada queso",
+		"description": "Mechada, doble queso",
+		"price": "$6.500"
+	},
+	{
+		"dish": "Pollo camarón",
+		"description": "Pollo, camarón, lechuga, palta",
+		"price": "$6.500"
+	}
 ]

@@ -1,17 +1,120 @@
 ---
-export interface PromotionProps {
+interface Props {
 	title: string;
 	description: string;
-	price: string | undefined;
+	price: string;
+	highlight?: boolean;
 }
 
-const { title, description, price } = Astro.props;
+const { title, description, price, highlight = false } = Astro.props as Props;
+const uniqueId = `promo-${Math.random().toString(36).substring(2, 9)}`;
 ---
 
-<section
-	class="text-gray-900 flex flex-col justify-center items-center bg-yellow-500 rounded-md overflow-hidden gap-5 max-w-2/3 mx-auto p-4 shadow-lg"
+<article
+	class:list={[
+		"relative",
+		"flex",
+		"flex-col",
+		"bg-gray-900",
+		"rounded-xl",
+		"overflow-hidden",
+		"border-2",
+		highlight ? "border-yellow-400" : "border-gray-800",
+		"shadow-2xl",
+		"hover:shadow-yellow-500/20",
+		"transition-all",
+		"duration-300",
+		"transform",
+		"hover:-translate-y-1",
+		"max-w-md",
+		"mx-auto",
+		"w-full",
+		"h-full",
+	]}
+	id={uniqueId}
+	aria-labelledby={`${uniqueId}-title`}
+	aria-describedby={`${uniqueId}-desc`}
+	itemscope
+	itemtype="https://schema.org/Offer"
 >
-	<h1 class="text-xl uppercase font-bold text-center">{title}</h1>
-	<p class="text-center">{description}</p>
-	<span class="text-xl font-bold text-center">{price}</span>
-</section>
+	{
+		highlight && (
+			<div
+				class="absolute -top-3 -right-8 bg-yellow-400 text-gray-900 text-sm font-bold px-8 py-1 transform rotate-45 origin-top-right shadow-md"
+				aria-hidden="true"
+			>
+				¡MÁS VENDIDO!
+			</div>
+		)
+	}
+
+	<div class="p-6 flex-1 flex flex-col">
+		<header class="mb-4">
+			<h2
+				id={`${uniqueId}-title`}
+				class="text-2xl font-bold text-yellow-400 mb-2 text-center"
+				itemprop="name"
+			>
+				{title}
+			</h2>
+
+			<div class="flex justify-center items-baseline mb-4">
+				<span class="text-4xl font-extrabold text-white" itemprop="price">
+					{price}
+				</span>
+				<meta itemprop="priceCurrency" content="CLP" />
+			</div>
+		</header>
+
+		<div
+			id={`${uniqueId}-desc`}
+			class="text-gray-300 mb-6 flex-1 text-center text-pretty"
+			itemprop="description"
+		>
+			{
+				description
+					.split("\n")
+					.map((paragraph, i) => <p class="mb-3 last:mb-0">{paragraph}</p>)
+			}
+		</div>
+
+		<div class="mt-auto">
+			<div
+				class="bg-yellow-400/10 border border-yellow-400/30 rounded-lg p-4 text-center"
+			>
+				<p class="text-yellow-400 font-medium">
+					💡 Pregunta por esta promoción en tu próxima visita
+				</p>
+				<p class="text-sm text-gray-400 mt-1">
+					No incluye envío. Precios sujetos a disponibilidad.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div
+		class="h-1.5 bg-gradient-to-r from-yellow-400 via-amber-500 to-yellow-400"
+	>
+	</div>
+
+	<style>
+		@keyframes pulse {
+			0%,
+			100% {
+				transform: scale(1);
+			}
+			50% {
+				transform: scale(1.02);
+			}
+		}
+
+		article {
+			animation: pulse 4s ease-in-out infinite;
+		}
+
+		article:hover {
+			animation: none;
+			transform: translateY(-2px) !important;
+		}
+	</style>
+</article>

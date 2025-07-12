@@ -1,53 +1,57 @@
 [
-  {
-    "dish": "Bacon",
-    "description": "Pepinillo, queso cheddar, carne 160 gr",
-    "price": "$"
-  },
-  {
-    "dish": "La India",
-    "description": "Doble queso cheddar, doble carne 160 gr",
-    "price": "$"
-  },
-  {
-    "dish": "Cheese BBQ",
-    "description": "Salsa BBQ, cebolla caramelizada, tocino, queso cheddar, carne 160 gr",
-    "price": "$"
-  },
-  {
-    "dish": "Macanuda",
-    "description": "Mayo casera, palta, cebolla morada, tomate, lechuga, carne 160 gr",
-    "price": "$"
-  },
-  {
-    "dish": "A lo pobre",
-    "description": "Huevo frito, papas fritas, cebolla caramelizada, carne 160 gr",
-    "price": "$"
-  },
-  {
-    "dish": "Chimango",
-    "description": "Mayo casera, palta, champiñón, lechuga, carne 160 gr",
-    "price": "$"
-  },
-  {
-    "dish": "Chacarero",
-    "description": "Mayo casera, ají verde, porotos verdes, tomate, carne 160 gr",
-    "price": "$"
-  },
-  {
-    "dish": "Barro luco 2.0",
-    "description": "Palta, queso mantecoso, carne 160 gr",
-    "price": "$"
-  },
-  {
-    "dish": "Clásica (Vegetariana)",
-    "description": "Palta, tomate, lechuga, lenteja o garbanzos",
-    "price": "$"
-  },
-  {
-    "dish": "La Mía (Vegetariana)",
-    "description": "Cebolla morada, tomate, lechuga, queso cheddar, lenteja o garbanzos",
-    "price": "$"
-  }
+	{
+		"dish": "Bacon",
+		"description": "Mayo casera, queso, pepinillo, carne 150 gr",
+		"price": "$6.500"
+	},
+	{
+		"dish": "La India",
+		"description": "Doble queso, doble carne 300 gr",
+		"price": "$6.700"
+	},
+	{
+		"dish": "Cheese BBQ",
+		"description": "Salsa BBQ, tocino, cebolla morada, queso, carne 150 gr",
+		"price": "$5.800"
+	},
+	{
+		"dish": "Macanuda",
+		"description": "Mayo casera, palta, cebolla morada, tomate, lechuga, carne 150 gr",
+		"price": "$5.900"
+	},
+	{
+		"dish": "A lo pobre",
+		"description": "Huevo frito, papas fritas, cebolla caramelizada, carne 150 gr",
+		"price": "$6.500"
+	},
+	{
+		"dish": "Guataca light",
+		"description": "Mayo casera, palta, champiñón, lechuga, carne 150 gr",
+		"price": "$5.800"
+	},
+	{
+		"dish": "Chacarero",
+		"description": "Mayo casera, ají verde, porotos verdes, tomate, carne 150 gr",
+		"price": "$6.500"
+	},
+	{
+		"dish": "Barros Luco 2.0",
+		"description": "Palta, queso, carne 150 gr",
+		"price": "$5.900"
+	},
+	{
+		"dish": "Michigan",
+		"description": "Mayo casera, tocino, aceitunas, queso, carne 150 gr",
+		"price": "$5.900"
+	},
+	{
+		"dish": "Clásica (Vegetariana)",
+		"description": "Tomate, palta, lechuga, champiñón",
+		"price": "$5.900"
+	},
+	{
+		"dish": "La Mía (Vegetariana)",
+		"description": "Cebolla morada, tomate, queso, papas fritas",
+		"price": "$5.900"
+	}
 ]
-

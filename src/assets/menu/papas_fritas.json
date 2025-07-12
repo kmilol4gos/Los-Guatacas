@@ -1,32 +1,42 @@
 [
-  {
-    "dish": "Papas Clásica",
-    "description": "Papas fritas tradicionales",
-    "price": "$"
-  },
-  {
-    "dish": "Papas Queso Cheddar",
-    "description": "Papas fritas con queso cheddar",
-    "price": "$"
-  },
-  {
-    "dish": "Salchipapa",
-    "description": "Papas fritas con vienesas",
-    "price": "$"
-  },
-  {
-    "dish": "Chorrillana",
-    "description": "Papas fritas, cebolla caramelizada, churrasco, huevo frito",
-    "price": "$"
-  },
-  {
-    "dish": "Papa Guataca",
-    "description": "Mechada, cebolla caramelizada, aceituna, queso cheddar, papas fritas",
-    "price": "$"
-  },
-  {
-    "dish": "Papa Mexicana",
-    "description": "Papas fritas, palta, tomate, tocino picado",
-    "price": "$"
-  }
+	{
+		"dish": "Papas Queso Cheddar",
+		"description": "Papas fritas con queso cheddar",
+		"price": "$4.000"
+	},
+	{
+		"dish": "Salchipapa",
+		"description": "Papas fritas con vienesas",
+		"price": "$6.500"
+	},
+	{
+		"dish": "Chorrillana",
+		"description": "Papas fritas, cebolla caramelizada, churrasco, huevo frito",
+		"price": "$14.500"
+	},
+	{
+		"dish": "Papa Guataca",
+		"description": "papas fritas, pollo, tomate cherry",
+		"price": "$7.000"
+	},
+	{
+		"dish": "Papa Mexicana",
+		"description": "Papas fritas, palta, tomate",
+		"price": "$7.000"
+	},
+	{
+		"dish": "Papa chica",
+		"description": "papas fritas clasicas",
+		"price": "$2.800"
+	},
+	{
+		"dish": "Papa mediana",
+		"description": "papas fritas clasicas",
+		"price": "$4.500"
+	},
+	{
+		"dish": "Papa grande",
+		"description": "papas fritas clasicas",
+		"price": "$6.700"
+	}
 ]

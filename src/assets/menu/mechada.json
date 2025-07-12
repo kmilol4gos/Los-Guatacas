@@ -1,22 +1,22 @@
 [
-  {
-    "dish": "Chacarero",
-    "description": "Mayo casera, ají verde, tomate, porotos verdes",
-    "price": "$"
-  },
-  {
-    "dish": "Queso",
-    "description": "Queso mantecoso",
-    "price": "$"
-  },
-  {
-    "dish": "Brasileña",
-    "description": "Palta, queso mantecoso",
-    "price": "$"
-  },
-  {
-    "dish": "Champiñones",
-    "description": "Champiñones",
-    "price": "$"
-  }
+	{
+		"dish": "Chacarero",
+		"description": "Pan ciabatta, mechada, ají verde, tomate, porotos verdes",
+		"price": "$7.500"
+	},
+	{
+		"dish": "Italiano",
+		"description": "Pan ciabatta, mechada, tomate, palta, mayo casera",
+		"price": "$7.500"
+	},
+	{
+		"dish": "Luco",
+		"description": "Pan ciabatta, mechada, queso fundido",
+		"price": "$6.200"
+	},
+	{
+		"dish": "Champiñones",
+		"description": "Pan ciabatta, mechada, champiñones salteados, aceitunas",
+		"price": "$6.900"
+	}
 ]

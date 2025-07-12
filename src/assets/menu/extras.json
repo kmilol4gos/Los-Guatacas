@@ -1,17 +1,57 @@
 [
-  {
-    "dish": "Empanada de Queso",
-    "description": "Empanada rellena de queso",
-    "price": "$"
-  },
-  {
-    "dish": "Aros de Cebolla",
-    "description": "Aros de cebolla fritos",
-    "price": "$"
-  },
-  {
-    "dish": "Sopaipillas",
-    "description": "Sopaipillas tradicionales",
-    "price": "$"
-  }
+	{
+		"dish": "Queso",
+		"description": "Porción de queso derretido",
+		"price": "$1.000"
+	},
+	{
+		"dish": "Aceituna",
+		"description": "Porción de aceituna fresca",
+		"price": "$1.000"
+	},
+	{
+		"dish": "Porotos verdes",
+		"description": "Porción de porotos verdes frescos",
+		"price": "$1.000"
+	},
+	{
+		"dish": "Palta",
+		"description": "Porción de palta fresca",
+		"price": "$1.000"
+	},
+	{
+		"dish": "Pepinillos",
+		"description": "Porción de pepinillos frescos",
+		"price": "$1.000"
+	},
+	{
+		"dish": "Tocino",
+		"description": "Porción de tocino crocante",
+		"price": "$1.000"
+	},
+	{
+		"dish": "Champiñones",
+		"description": "Porción de champiñones salteados",
+		"price": "$1.000"
+	},
+	{
+		"dish": "Cebolla Caramelizada",
+		"description": "Porción de cebolla cocida a fuego lento",
+		"price": "$1.000"
+	},
+	{
+		"dish": "Tomate",
+		"description": "Rodajas de tomate fresco",
+		"price": "$1.000"
+	},
+	{
+		"dish": "Lechuga",
+		"description": "Hojas de lechuga fresca",
+		"price": "$1.000"
+	},
+	{
+		"dish": "Tomate cherry",
+		"description": "Porción de tomate cherry fresco",
+		"price": "$1.000"
+	}
 ]
