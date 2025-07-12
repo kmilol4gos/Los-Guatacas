@@ -3,7 +3,8 @@ import Card from "./Card.astro";
 import ContentMenu from "./ContentMenu.astro";
 import hamburguesa from "../assets/menu/hamburguesas.json";
 import fajita from "../assets/menu/fajitas.json";
-import vienesa_ass from "../assets/menu/vienesa_ass.json";
+import vienesa from "../assets/menu/vienesa.json";
+import as from "../assets/menu/as.json";
 import churrasco_lomito from "../assets/menu/churrasco_lomito.json";
 import mechada from "../assets/menu/mechada.json";
 import papas_fritas from "../assets/menu/papas_fritas.json";
@@ -54,9 +55,21 @@ import extras from "../assets/menu/extras.json";
 			}
 		</Card>
 
-		<Card title="Vienesa o As">
+		<Card title="Vienesa">
 			{
-				vienesa_ass.map((item) => (
+				vienesa.map((item) => (
+					<ContentMenu
+						dish={item.dish}
+						description={item.description}
+						price={item.price}
+					/>
+				))
+			}
+		</Card>
+
+		<Card title="AS">
+			{
+				as.map((item) => (
 					<ContentMenu
 						dish={item.dish}
 						description={item.description}
