@@ -17,26 +17,26 @@
 	{
 		"dish": "Completo",
 		"description": "Churrasco con tomate, chucrut, salsa americana y mayonesa",
-		"price": "$8.500"
+		"price": "$6.500"
 	},
 	{
 		"dish": "Italiano",
 		"description": "Churrasco con tomate, palta y mayonesa",
-		"price": "$8.500"
+		"price": "$6.800"
 	},
 	{
 		"dish": "Chacarero",
 		"description": "Churrasco con porotos verdes, tomate, ají verde y mayonesa",
-		"price": "$8.900"
+		"price": "$7.900"
 	},
 	{
 		"dish": "Brasileño",
 		"description": "Churrasco con queso mantecoso derretido y palta",
-		"price": "$8.900"
+		"price": "$7.900"
 	},
 	{
 		"dish": "A lo Pobre",
 		"description": "Churrasco con cebolla caramelizada, papas fritas y huevo frito",
-		"price": "$8.900"
+		"price": "$8.000"
 	}
 ]

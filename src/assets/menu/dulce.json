@@ -1,0 +1,16 @@
+[
+	{
+		"dish": "Waffles - Base + 2 Frutas + 2 toppings",
+		"description": "Elige una base y 2 frutas, y 2 toppings",
+		"price": "$4.900"
+	},
+	{
+		"dish": "Base: Manjar, Nutella o Leche Condensada"
+	},
+	{
+		"dish": "Frutas: Frutilla, Kiwi, Platano, Durazno en conserva"
+	},
+	{
+		"dish": "Toppings: Oreo, Super 8, Chuby, Chispas de chocolate, Gomitas"
+	}
+]

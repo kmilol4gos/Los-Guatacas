@@ -1,0 +1,22 @@
+[
+	{
+		"dish": "Empanadas de queso",
+		"description": "Porción de empanadas de queso",
+		"price": "$3.500"
+	},
+	{
+		"dish": "Aros de cebolla",
+		"description": "Porción de 10 aros de cebolla",
+		"price": "$4.500"
+	},
+	{
+		"dish": "Sopaipilla (4 x $1.000)",
+		"description": "Una sopaipilla",
+		"price": "$350"
+	},
+	{
+		"dish": "Bebidas CCU",
+		"description": "Limon soda, Kem piña, Bilz y Pap, etc.",
+		"price": "$1.500"
+	}
+]

@@ -1,11 +1,13 @@
 ---
 const horarioSemana = "Lunes a jueves: 09:00 - 23:00";
 const horarioViernes = "Viernes: 09:00 - 02:00";
-const horarioSabado = "Sábado: 11:00 - 02:00";
-const horarioDomingo = "Domingo: 11:00 - 23:00";
+const horarioSabado = "Sábado: 12:00 - 02:00";
+const horarioDomingo = "Domingo: 12:00 - 23:00";
 
 const ubicacion = "En deuda aún";
-export const celular = "";
+export const celular = "+56933129358";
+export const Whatsapp =
+	"https://wa.me/56933129358?text=Bienvenido%20a%20Los%20Guatacas%20Sandwicher%C3%ADa.%0AGracias%20por%20elegirnos.%0ADescubre%20nuestro%20men%C3%BA%20de%20s%C3%A1ndwiches%20y%20acompa%C3%B1amientos%20y%20escribe%20tu%20pedido%20aqu%C3%AD%3A%0A%5BEscribe%20tu%20pedido%20aqu%C3%AD%5D%0ATe%20confirmar%C3%A9%20disponibilidad%2C%20precios%20y%20tiempo%20de%20entrega.";
 const instagram = "losguatacasandwicheria";
 const urlInstagram = "https://www.instagram.com/losguatacasandwicheria/";
 ---
@@ -119,7 +121,12 @@ const urlInstagram = "https://www.instagram.com/losguatacasandwicheria/";
 								d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
 							></path>
 						</svg>
-						<a href="#contacto" class="hover:text-yellow-400 transition-colors">
+						<a
+							href={Whatsapp}
+							target="_blank"
+							rel="noopener noreferrer"
+							class="hover:text-yellow-400 transition-colors"
+						>
 							{celular || ""}
 						</a>
 					</div>

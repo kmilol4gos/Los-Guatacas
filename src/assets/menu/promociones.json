@@ -17,15 +17,15 @@
 	{
 		"title": "Combo Hamburguesas",
 		"description": "Cualquier hamburguesa del menú + Papas Fritas + Bebida.\n\nIncluye todas nuestras variedades.\n• 100% carne artesanal\n• Papas fritas\n• Bebida personal",
-		"price": "$11.900"
+		"price": "$10.990"
 	},
 	{
-		"title": "2x1 Churrascos Clásicos",
+		"title": "2x1 Churrascos",
 		"description": "Lleva 2 churrascos iguales y paga solo 1.\n\n• 2x Solo Mayo: $7.500\n• 2x Palta Mayo: $7.800\n• 2x Churrasco Queso: $9.500\n• 2x Churrasco Completo: $9.500\n\n*Promoción aplica solo para churrascos del mismo tipo.*",
 		"price": "$7.500 - $9.500"
 	},
 	{
-		"title": "2x1 Churrascos Especiales",
+		"title": "2x1 Churrascos",
 		"description": "Lleva 2 churrascos iguales y paga solo 1.\n\n• 2x Churrasco Italiano: $9.500\n• 2x Churrasco Chacarero: $9.500\n• 2x Churrasco Brasileño: $9.500\n• 2x Churrasco a lo Pobre: $9.900\n\n*Promoción aplica solo para churrascos del mismo tipo.*",
 		"price": "$9.500 - $9.900"
 	}

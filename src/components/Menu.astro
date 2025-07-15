@@ -9,10 +9,12 @@ import churrasco_lomito from "../assets/menu/churrasco_lomito.json";
 import mechada from "../assets/menu/mechada.json";
 import papas_fritas from "../assets/menu/papas_fritas.json";
 import extras from "../assets/menu/extras.json";
+import acompañamientos from "../assets/menu/acompañamientos.json";
+import dulce from "../assets/menu/dulce.json";
 ---
 
 <section
-	class="text-gray-900 flex flex-col items-center justify-center gap-7"
+	class="text-gray-900 flex flex-col items-center justify-center gap-7 pb-7"
 	id="menu"
 >
 	<header>
@@ -106,6 +108,30 @@ import extras from "../assets/menu/extras.json";
 		<Card title="Extras">
 			{
 				extras.map((item) => (
+					<ContentMenu
+						dish={item.dish}
+						description={item.description}
+						price={item.price}
+					/>
+				))
+			}
+		</Card>
+
+		<Card title="Acompañamientos">
+			{
+				acompañamientos.map((item) => (
+					<ContentMenu
+						dish={item.dish}
+						description={item.description}
+						price={item.price}
+					/>
+				))
+			}
+		</Card>
+
+		<Card title="Dulce">
+			{
+				dulce.map((item) => (
 					<ContentMenu
 						dish={item.dish}
 						description={item.description}
