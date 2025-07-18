@@ -5,9 +5,14 @@
 		"price": "$4.000"
 	},
 	{
-		"dish": "Salchipapa",
+		"dish": "Salchipapa grande",
 		"description": "Papas fritas con vienesas",
-		"price": "$6.500"
+		"price": "$5.990"
+	},
+	{
+		"dish": "Salchipapa chica",
+		"description": "Papas fritas con vienesas",
+		"price": "$3.990"
 	},
 	{
 		"dish": "Chorrillana",
@@ -20,9 +25,14 @@
 		"price": "$7.000"
 	},
 	{
-		"dish": "Papa Mexicana",
-		"description": "Papas fritas, palta, tomate",
-		"price": "$7.000"
+		"dish": "Papa tocino cheddar",
+		"description": "papas fritas, tocino, salsa cheddar",
+		"price": "$6.490"
+	},
+	{
+		"dish": "Papa el villar",
+		"description": "Papas fritas, mechada, cebolla caramelizada, choclo",
+		"price": "$7.490"
 	},
 	{
 		"dish": "Papa chica",

@@ -2,46 +2,46 @@
 	{
 		"dish": "Solo",
 		"description": "AS con pan y salsa al gusto",
-		"price": "$3.500"
+		"price": "$2.200"
 	},
 	{
-		"dish": "Mayo",
-		"description": "AS con mayonesa",
-		"price": "$3.700"
+		"dish": "Palta mayo",
+		"description": "AS con mayonesa y palta",
+		"price": "$2.350"
 	},
 	{
 		"dish": "Completo",
 		"description": "Tomate, chucrut, americana y mayo",
-		"price": "$3.900"
+		"price": "$2.650"
 	},
 	{
 		"dish": "Italiano",
 		"description": "Tomate, palta y mayo",
-		"price": "$3.900"
+		"price": "$2.750"
 	},
 	{
 		"dish": "Dinámico",
 		"description": "Tomate, palta, salsa verde, americana y mayo",
-		"price": "$3.900"
+		"price": "$2.900"
 	},
 	{
 		"dish": "Queso",
 		"description": "Queso mantecoso",
-		"price": "$3.900"
+		"price": "$3.290"
 	},
 	{
 		"dish": "Brasileño",
 		"description": "Queso mantecoso y palta",
-		"price": "$3.900"
+		"price": "$3.550"
 	},
 	{
 		"dish": "Queso Aceituna",
 		"description": "Queso mantecoso y aceitunas",
-		"price": "$3.900"
+		"price": "$3.490"
 	},
 	{
 		"dish": "Flechita",
 		"description": "Huevo revuelto, orégano y tocino",
-		"price": "$3.900"
+		"price": "$3.650"
 	}
 ]
