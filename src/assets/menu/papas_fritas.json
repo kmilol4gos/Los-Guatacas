@@ -20,11 +20,6 @@
 		"price": "$14.500"
 	},
 	{
-		"dish": "Papa Guataca",
-		"description": "papas fritas, pollo, tomate cherry",
-		"price": "$7.000"
-	},
-	{
 		"dish": "Papa tocino cheddar",
 		"description": "papas fritas, tocino, salsa cheddar",
 		"price": "$6.490"
