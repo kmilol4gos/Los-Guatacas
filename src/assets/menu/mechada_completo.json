@@ -1,0 +1,27 @@
+[
+	{
+		"dish": "Mechada",
+		"description": "Pan de completo chico",
+		"price": "$3.500"
+	},
+	{
+		"dish": "Palta mayo",
+		"description": "Mechada con mayonesa y palta",
+		"price": "$3.000"
+	},
+	{
+		"dish": "Italiana",
+		"description": "Mechada, tomate, palta y mayo",
+		"price": "$3.600"
+	},
+	{
+		"dish": "Queso aceituna",
+		"description": "Mechada, queso y aceitunas",
+		"price": "$3.800"
+	},
+	{
+		"dish": "Brasileña",
+		"description": "Mechada, queso y palta",
+		"price": "$4.000"
+	}
+]

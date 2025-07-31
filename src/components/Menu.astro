@@ -11,6 +11,7 @@ import papas_fritas from "../assets/menu/papas_fritas.json";
 import extras from "../assets/menu/extras.json";
 import acompañamientos from "../assets/menu/acompañamientos.json";
 import dulce from "../assets/menu/dulce.json";
+import mechada_completo from "../assets/menu/mechada_completo.json";
 ---
 
 <section
@@ -57,7 +58,7 @@ import dulce from "../assets/menu/dulce.json";
 			}
 		</Card>
 
-		<Card title="Vienesa">
+		<Card title="Completos Chicos">
 			{
 				vienesa.map((item) => (
 					<ContentMenu
@@ -69,9 +70,21 @@ import dulce from "../assets/menu/dulce.json";
 			}
 		</Card>
 
-		<Card title="AS">
+		<Card title="AS Chicos">
 			{
 				as.map((item) => (
+					<ContentMenu
+						dish={item.dish}
+						description={item.description}
+						price={item.price}
+					/>
+				))
+			}
+		</Card>
+
+		<Card title="Mechada Completo">
+			{
+				mechada_completo.map((item) => (
 					<ContentMenu
 						dish={item.dish}
 						description={item.description}

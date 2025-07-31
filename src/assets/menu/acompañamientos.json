@@ -16,7 +16,12 @@
 	},
 	{
 		"dish": "Bebidas CCU",
-		"description": "Limon soda, Kem piña, Bilz y Pap, etc.",
-		"price": "$1.500"
+		"description": "Limón soda, Kem piña, Bilz y Pap, etc.",
+		"price": "$1.350"
+	},
+	{
+		"dish": "Para picar",
+		"description": "Papas fritas, empanadas de queso, aros de cebolla y pollo picado",
+		"price": "$12.990"
 	}
 ]
